@@ -17,7 +17,7 @@ echo "\n+============== FOR-2 =============+\n";
 
 // FOR para todos os elementos de um array
 
-$times = ["Corinthians", "Santos", "Palmeiras", "Sao Paulo"];
+$times = array("Corinthians", "Santos", "Palmeiras", "Sao Paulo");
 
 // podia usar a sintaxe abaixo, mas para nao usar elementos fixos, foi utilizado a variavel
 //for ($i = 0; $i <=3; $i++) {
