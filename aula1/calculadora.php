@@ -4,35 +4,42 @@
 // ou para melhorar as estruturas do if else
 // eh mais lento que o if 
 
-
+system ("command clear");
 echo "Digite a opção desejada \n";
-echo "1 - somar \n";
+echo "1 - Somar \n";
 echo "2 - Subtrair \n";
 echo "3 - Multiplicar \n";
 echo "4 - Dividir \n";
 echo "5 - Sair \n";
-
-
 
 echo "digite a Opcao--> ";
 $opt = readline();
 
 switch ($opt) {
 	case 1: 
-		echo "Somar \n";
+                system("command  clear");
+		echo "Voce está operação de somar \n";
 		echo "digite o primeiro número --> ";
 		$num1 = readline();
 		echo "digite o segundo numero--> ";
 		$num2 = readline();
 		$soma = $num1 + $num2;
 		echo "Resultado ";
-		echo $soma . "\n";
-		
+		echo $soma . "\n";	
 		break;
 		
 	case 2:
-		echo "Subtrair \n";
-		break;
+
+		 system("command  clear");
+                echo "Voce está operação de subtrair \n";
+                echo "digite o primeiro número --> ";
+                $num1 = readline();
+                echo "digite o segundo numero--> ";
+                $num2 = readline();
+                $soma = $num1 - $num2;
+                echo "Resultado ";
+                echo $soma . "\n";
+                break;
 
 	case 3:
 		echo "multiplicar \n";
