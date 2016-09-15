@@ -10,6 +10,7 @@ $opt = 1;
 while($opt <= 4) {
 
 system ("command clear");
+echo "\n+============== Calculadora  =============+\n";
 echo "Digite a opção desejada \n";
 echo "1 - Somar \n";
 echo "2 - Subtrair \n";
@@ -24,6 +25,7 @@ switch ($opt) {
 	case 1: 
 
         system("command  clear");
+echo "\n+==================================+\n";
 		echo "Voce está na operação de somar \n";
 		echo "digite o primeiro número --> ";
 		$num1 = readline();
@@ -39,6 +41,7 @@ switch ($opt) {
 	case 2:
 
 		system("command  clear");
+	echo "\n+==================================+\n";
         echo "Voce está na operação de subtrair \n";
         echo "digite o primeiro número --> ";
         $num1 = readline();
@@ -54,6 +57,7 @@ switch ($opt) {
 	case 3:
 	
 	    system("command  clear");
+	echo "\n+==================================+\n";
 		echo "Voce está na operação de multiplicar \n";
 		echo "digite o primeiro número --> ";
 		$num1 = readline();
@@ -69,6 +73,7 @@ switch ($opt) {
 	case 4:
 		
 		system("command  clear");
+	echo "\n+==================================+\n";
 		echo "Voce está na operação de dividir \n";
 		echo "digite o primeiro número --> ";
 		$num1 = readline();
