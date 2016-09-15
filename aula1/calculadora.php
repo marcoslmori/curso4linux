@@ -4,6 +4,11 @@
 // ou para melhorar as estruturas do if else
 // eh mais lento que o if 
 
+
+$opt = 1;
+
+while($opt <= 4) {
+
 system ("command clear");
 echo "Digite a opção desejada \n";
 echo "1 - Somar \n";
@@ -17,36 +22,63 @@ $opt = readline();
 
 switch ($opt) {
 	case 1: 
-                system("command  clear");
-		echo "Voce está operação de somar \n";
+
+        system("command  clear");
+		echo "Voce está na operação de somar \n";
 		echo "digite o primeiro número --> ";
 		$num1 = readline();
 		echo "digite o segundo numero--> ";
 		$num2 = readline();
 		$soma = $num1 + $num2;
 		echo "Resultado ";
-		echo $soma . "\n";	
+		echo $soma . "\n\n";	
+		echo "digite a [ENTER] para continuar --> ";
+		$opt2 = readline();
 		break;
 		
 	case 2:
 
-		 system("command  clear");
-                echo "Voce está operação de subtrair \n";
-                echo "digite o primeiro número --> ";
-                $num1 = readline();
-                echo "digite o segundo numero--> ";
-                $num2 = readline();
-                $soma = $num1 - $num2;
-                echo "Resultado ";
-                echo $soma . "\n";
-                break;
+		system("command  clear");
+        echo "Voce está na operação de subtrair \n";
+        echo "digite o primeiro número --> ";
+        $num1 = readline();
+        echo "digite o segundo numero--> ";
+        $num2 = readline();
+        $soma = $num1 - $num2;
+        echo "Resultado ";
+        echo $soma . "\n\n";
+		echo "digite a [ENTER] para continuar --> ";
+		$opt2 = readline();
+        break;
 
 	case 3:
-		echo "multiplicar \n";
+	
+	    system("command  clear");
+		echo "Voce está na operação de multiplicar \n";
+		echo "digite o primeiro número --> ";
+		$num1 = readline();
+		echo "digite o segundo numero--> ";
+		$num2 = readline();
+		$soma = $num1 * $num2;
+		echo "Resultado ";
+		echo $soma . "\n\n";	
+		echo "digite a [ENTER] para continuar --> ";
+		$opt2 = readline();
 		break;
-
+	
 	case 4:
-		echo "Dividir \n";
+		
+		system("command  clear");
+		echo "Voce está na operação de dividir \n";
+		echo "digite o primeiro número --> ";
+		$num1 = readline();
+		echo "digite o segundo numero--> ";
+		$num2 = readline();
+		$soma = $num1 / $num2;
+		echo "Resultado ";
+		echo $soma . "\n\n";	
+		echo "digite a [ENTER] para continuar --> ";
+		$opt2 = readline();
 		break;
 
 	case 5:
@@ -56,5 +88,7 @@ switch ($opt) {
 		echo "Opcao nao valida\n";
 		break;
 		// nao precisa colocar o break
+}
+
 }
 
