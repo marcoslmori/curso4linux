@@ -1,11 +1,13 @@
+<?php 
 // sabado que vem
 // quero um php todos os numeros primos ate o maximo (esse numero sera uma variavel)
 // sao so dividios por um um por ele mesmo
 
+system ("command clear");
+echo "Numeros primos até o número --> ";
+$opt = readline();
 
-<?php 
-
-for ($n = 2; $n <= 100; $n++) { 
+for ($n = 2; $n <= $opt; $n++) { 
 $primo = true; 
 for ($x = 2; $x < $n; $x++) { 
 if ($n % $x == 0) { 
@@ -14,7 +16,7 @@ break;
 } 
 } 
 if ($primo) { 
-echo ' ' . $n; 
+echo ' ' . $n . "\n"; 
 } 
 } 
 ?>
