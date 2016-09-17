@@ -1,0 +1,39 @@
+editor texto
+
+sublimetext, atom , light table, eclipse, netbeans
+JetBrains --> intellij (java), phpstorm (php)
+
+17/09/2016
+para casa - primoscomfuncao3 para melhorar a performas
+
+
+boostrap
+semantic-ui - tem cards
+-- visualmente mais bonito e mais dificil de trabalhar
+
+icones
+icomon.io
+fontawesome/
+adminLTE
+
+templates
+SB-admin
+https://startbootstrap.com/template-overviews/sb-admin-2/
+purecss.io
+colorlib
+
+https://about.gitlab.com/
+
+google p materia design
+
+documentacao > http://php.net/
+
+
+para imagens eh melhor usar o cdn
+
+templates engine
+
+http://www.smarty.net/
+
+
+

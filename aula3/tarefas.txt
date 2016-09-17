@@ -1,0 +1,11 @@
+desenvolvoer uma funcao que recebe uma funcao anonima com valor N
+calcula o tempo que a funcao demora para executar 
+dica
+tempo inicial = 0
+$func($n);
+tempo _final = 1;
+return tempo_final - tempo_inicial;
+
+objetivo o tempo que calcula o que as outras funcoes demora
+
+nao eh o time via terminal

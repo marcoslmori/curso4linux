@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Meus carros</title>
+	</head>
+<body>
+	<h1>
+		<table border="2">
+			<thead>
+				<th>coluna1</th>
+				<th>coluna2</th>
+			</thead>
+			<tbody>
+				<?php
+					require "array/carros_db.php";
+					for ($i = 0; $i < count($carros); $i++) {
+						echo "<tr>";
+						echo "<td>${i}</td>";
+						echo "<td>". $carros[$i] ."</td>";
+						echo "</tr>";
+					}
+				 ?>
+				
+			</tbody>
+		</table>
+	</h1>
+</body>
+</html>
