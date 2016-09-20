@@ -1,0 +1,11 @@
+1 = mostrar menu de opcoes
+2 = pedir uma opcao
+3 = executar uma funcao
+1 - adicionar
+2 - subtrair
+3 - multiplicar
+4 - dividir
+
+cada funcao tem que pedir a variavel a e variavel b
+calcula mostra para o usuario
+avisar se a funcao for invalida

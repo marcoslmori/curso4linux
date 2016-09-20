@@ -1,0 +1,148 @@
+Contador: 0
+Contador: 1
+Contador: 2
+Contador: 3
+Contador: 4
+Contador: 5
+Contador: 6
+Contador: 7
+Contador: 8
+Contador: 9
+Contador: 10
+Contador: 11
+Contador: 12
+Contador: 13
+Contador: 14
+Contador: 15
+Contador: 16
+Contador: 17
+Contador: 18
+Contador: 19
+Contador: 20
+
++============== FOR-1 =============+
+Contador: 20
+Contador: 19
+Contador: 18
+Contador: 17
+Contador: 16
+Contador: 15
+Contador: 14
+Contador: 13
+Contador: 12
+Contador: 11
+Contador: 10
+Contador: 9
+Contador: 8
+Contador: 7
+Contador: 6
+Contador: 5
+Contador: 4
+Contador: 3
+Contador: 2
+Contador: 1
+Contador: 0
+
++============== FOR-2 =============+
+1 | Corinthians
+2 | Santos
+3 | Palmeiras
+4 | Sao Paulo
+
++============== FOR-4 =============+
+M
+a
+r
+c
+o
+s
+
++============== FOR-5 =============+
+M
+a
+r
+c
+o
+s
+
++============== FOR-5 mais rapido =============+
+
++============== FOR-5 =============+
+contador: 0
+contador: 1
+contador: 2
+contador: 4
+contador: 5
+contador: 6
+contador: 7
+contador: 8
+contador: 9
+contador: 10
+contador: 11
+contador: 12
+contador: 13
+contador: 14
+contador: 15
+contador: 16
+contador: 17
+contador: 18
+contador: 19
+
++============== FOR-5  =============+
+contador: 0
+contador: 1
+contador: 2
+
++============== FOR-5 numero dos pares  =============+
+contador: 1
+contador: 3
+contador: 5
+contador: 7
+contador: 9
+contador: 11
+contador: 13
+contador: 15
+contador: 17
+contador: 19
+contador: 21
+contador: 23
+contador: 25
+contador: 27
+contador: 29
+contador: 31
+contador: 33
+contador: 35
+contador: 37
+contador: 39
+contador: 41
+contador: 43
+contador: 45
+contador: 47
+contador: 49
+contador: 51
+contador: 53
+contador: 55
+contador: 57
+contador: 59
+contador: 61
+contador: 63
+contador: 65
+contador: 67
+contador: 69
+contador: 71
+contador: 73
+contador: 75
+contador: 77
+contador: 79
+contador: 81
+contador: 83
+contador: 85
+contador: 87
+contador: 89
+contador: 91
+contador: 93
+contador: 95
+contador: 97
+contador: 99
+
++============== FOR-5  =============+
