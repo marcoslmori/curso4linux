@@ -1,0 +1,1000 @@
+ 1013  cp -r ProjetoFinal/* Lab01/
+ 1014  sudo cp -r ProjetoFinal/* Lab01/
+ 1015  vim /etc/apache2/sites-enabled/lab1
+ 1016  vim /etc/apache2/sites-enabled/lab1.conf 
+ 1017  cd /etc/apache2/sites-available/
+ 1018  ls-la
+ 1019  ls -la
+ 1020  sudo cp lab1.conf 502.conf
+ 1021  sudo vim 502.conf 
+ 1022  sudo a2ensite 502.conf 
+ 1023  sudo service apache2 reload
+ 1024  ls -la
+ 1025  vim 502.conf 
+ 1026  sudo vim 502.conf 
+ 1027  sudo service apache2 reload
+ 1028  sudo vim /etc/hosts
+ 1029  ping dexter-service.dev
+ 1030  vim /etc/hosts
+ 1031  sudo vim /etc/hosts
+ 1032  vim /var/www/4502-PHP/ProjetoDexter/Lab01/DexterFront/js/config.js 
+ 1033  vim /var/www/4502-PHP/ProjetoDexter/Lab01/DexterAdmin/js/config.js 
+ 1034  sudo su
+ 1035  cd /var/www/4502-PHP/ProjetoDexter/
+ 1036  vim ProjetoFinal/DexterService/application/configs/dev.ini 
+ 1037  vim ProjetoFinal/DexterService/application/configs/live.ini 
+ 1038  vim ProjetoFinal/DexterService/application/configs/dev.ini 
+ 1039  sudo su
+ 1040  vim Lab01/DexterService/application/configs/dev.ini 
+ 1041  sudo su
+ 1042  git status
+ 1043  vim Lab01/DexterAdmin/js/config.js
+ 1044  vim /etc/apache2/sites-enabled/lab7.conf 
+ 1045  vim /etc/apache2/sites-enabled/lab5.conf
+ 1046  history
+ 1047  init 0
+ 1048  sudo init 0
+ 1049  ip a
+ 1050  sudo su
+ 1051  ping 192.168.0.2
+ 1052  sudo vim /etc/hosts
+ 1053  ssh root@192.168.0.2
+ 1054  sudo firefox
+ 1055  sudo /opt/firefox/firefox
+ 1056  sudo apt-get -f install gedit-plugins -y
+ 1057  sudo apt-get -f install gedit -y
+ 1058  sudo apt-get autoremove -y
+ 1059  sudo su
+ 1060  ssh root@192.168.0.2
+ 1061  lsb_release -a
+ 1062  sudo su
+ 1063  ls
+ 1064  ln -s /var/www/ www
+ 1065  sudo rm -rf /var/www/html
+ 1066  free -m
+ 1067  ping 8.8.8.8
+ 1068  ip a
+ 1069  ip r
+ 1070  ping 8.8.8.8
+ 1071  ls
+ 1072  cd www/
+ 1073  ls
+ 1074  git clone http://devops.4linux.com.br:8082/21570/4803-Python.git
+ 1075  ls
+ 1076  cd 4803-Python/HandsOn/
+ 1077  ls
+ 1078  mkdir Aula{01..12}
+ 1079  ls
+ 1080  vim cloud-config.yml
+ 1081  sudo su
+ 1082  cat .ssh/id_rsa
+ 1083  cat .ssh/id_rsa.pub 
+ 1084  mongo
+ 1085  sudo pip install psycopg2
+ 1086  sudo apt-get -f install python-psycopg2 -y
+ 1087  sudo pip install mysqldb
+ 1088  sudo apt-get -f install python-mysql
+ 1089  sudo apt-get -f install python-mysqldb
+ 1090  ip a
+ 1091  sudo apt-get -f install python-mysqldb
+ 1092  ls
+ 1093  cd www/
+ 1094  ls
+ 1095  cd 4803-Python/
+ 1096  ls
+ 1097  pgsql -u root -p123456
+ 1098  psql -u root -p123456
+ 1099  psql -uU root -p123456
+ 1100  psql -U root -p123456
+ 1101  psql -U root -W
+ 1102  psql -U dexter -W
+ 1103  su - postgres
+ 1104  sudo su - postgres
+ 1105  psql -U dexter -W
+ 1106  cat /etc/postgresql/9.4/main/pg_hba.conf 
+ 1107  sudo cat /etc/postgresql/9.4/main/pg_hba.conf 
+ 1108  psql -U dexter -W
+ 1109  psql -U dexter dexter -W
+ 1110  psql -U dexter dexter500 -W
+ 1111  psql -U dexter -D dexter500 -W
+ 1112  psql -U dexter -d dexter500 -W
+ 1113  sudo cat /etc/postgresql/9.4/main/pg_hba.conf 
+ 1114  sudo su - postgres
+ 1115  psql -U dexter  -W
+ 1116  psql -h 127.0.0.1 -U dexter  -W
+ 1117  python con
+ 1118  cd ProjetoDexter/
+ 1119  ls
+ 1120  python con_postgres.py 
+ 1121  psql -h 127.0.0.1 -U dexter  dexterops -W
+ 1122  python con_postgres.py 
+ 1123  psql -h 127.0.0.1 -U dexter  dexterops -W
+ 1124  python con_postgres.py 
+ 1125  mysql -u dexter -p123456
+ 1126  mysql -u dexter dexter500 -p123456
+ 1127  mysql -u root -p123456
+ 1128  mysql -u dexter dexterops -p123456
+ 1129  python con_postgres.py 
+ 1130  mysql -u dexter dexterops -p123456
+ 1131  python con_postgres.py 
+ 1132  mysql -u dexter dexterops -p123456
+ 1133  python con_postgres.py 
+ 1134  mysql -u dexter dexterops -p123456
+ 1135  python con_postgres.py 
+ 1136  mysql -u dexter dexterops -p123456
+ 1137  python con_postgres.py 
+ 1138  ls
+ 1139  python con_postgres.py 
+ 1140  sqlite3 banco.db 
+ 1141  python con_postgres.py 
+ 1142  sqlite3 
+ 1143  sqlite3 banco.db 
+ 1144  python con_postgres.py 
+ 1145  sqlite3 banco.db 
+ 1146  python con_postgres.py 
+ 1147  sqlite3 banco.db 
+ 1148  python con_postgres.py 
+ 1149  rm -f banco.db 
+ 1150  python con_postgres.py 
+ 1151  sqlite3 banco.db 
+ 1152  rm -f banco.db 
+ 1153  python con_postgres.py 
+ 1154  sqlite3 banco.db 
+ 1155  rm -f banco.db 
+ 1156  python con_postgres.py 
+ 1157  sqlite3 banco.db 
+ 1158  pip install pymongo
+ 1159  python con_postgres.py 
+ 1160  pip install paramiko
+ 1161  python con_postgres.py 
+ 1162  ip a
+ 1163  cd www
+ 1164  ls
+ 1165  cd 4500-PHP/
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  mv 4500-PHP 4500-PHP-original
+ 1170  ls
+ 1171  ifconfig eth0
+ 1172  ip a
+ 1173  ip a show dev eth0
+ 1174  scp -r 4500-PHP-original forlinux@192.168.203.135:
+ 1175  scp -r 4500-PHP-original forlinux@192.168.203.137:
+ 1176  scp -r 4500-PHP-original forlinux@192.168.203.132:
+ 1177  scp -r 4500-PHP-original forlinux@192.168.203.136:
+ 1178  scp -r 4500-PHP-original forlinux@192.168.203.10:
+ 1179  scp -r 4500-PHP-original sabado@192.168.203.10:
+ 1180  scp -r 4500-PHP-original forlinux@192.168.203.139:
+ 1181  scp -r 4500-PHP-original forlinux@192.168.203.133:
+ 1182  scp -r 4500-PHP-original forlinux@192.168.203.134:
+ 1183  ls
+ 1184  ls -la
+ 1185  ls
+ 1186  mv 4500-PHP-original 4500-PHP
+ 1187  ls -la
+ 1188  cd /var/www/4803-Python/
+ 1189  ls
+ 1190  cd ProjetoDexter/
+ 1191  ls
+ 1192  python con_postgres.py 
+ 1193  python cloud.py 
+ 1194  python fisico.py 
+ 1195  python cloud.py 
+ 1196  python fisico.py 
+ 1197  python cloud.py 
+ 1198  python fisico.py 
+ 1199  python cloud.py 
+ 1200  python fisico.py 
+ 1201  cd ..
+ 1202  ls
+ 1203  cd HandsOn/
+ 1204  ls
+ 1205  ls -laR
+ 1206  find . -type -d -exec touch {}/.gitignore \;
+ 1207  find . -type d -exec touch {}/.gitignore \;
+ 1208  ls -laR
+ 1209  cd Aula
+ 1210  cd Aula1
+ 1211  cd Aula01/
+ 1212  ls
+ 1213  python issue1.py 
+ 1214  ls
+ 1215  cd ..
+ 1216  cd ProjetoDexter/
+ 1217  ls
+ 1218  python DexterOps.py 
+ 1219  cd /var/www/4803-Python/
+ 1220  ls
+ 1221  cd ProjetoDexter/
+ 1222  ls
+ 1223  cat con_postgres.py 
+ 1224  python con_postgres.py 
+ 1225  cat con_postgres.py 
+ 1226  cat servidor.py
+ 1227  cat cloud.py 
+ 1228  cat fisico.py 
+ 1229  python cloud.py 
+ 1230  cat acesso.py
+ 1231  cat servidor.py
+ 1232  cat cloud.py 
+ 1233  cat fisico.py 
+ 1234  echo "3.80*4"
+ 1235  echo "3.80*4" | bc
+ 1236  echo "(3.80*4)*5" | bc
+ 1237  echo "12*53"
+ 1238  echo "12*53" | bc
+ 1239  cd /var/www/4803-Python/
+ 1240  ls
+ 1241  cd HandsOn/
+ 1242  ls
+ 1243  cd Aula02/
+ 1244  ls
+ 1245  python issue2.py 
+ 1246  cd ..
+ 1247  cd ProjetoDexter/
+ 1248  ls
+ 1249  python DexterOps.py 
+ 1250  python DexterOps.py 4
+ 1251  cd ..
+ 1252  cd Aula03/
+ 1253  çs
+ 1254  ls
+ 1255  python issue3.py 
+ 1256  touch banco.json
+ 1257  python issue3.py 
+ 1258  cat banco.json 
+ 1259  ls
+ 1260  rm -f banco.json 
+ 1261  python issue3.py 
+ 1262  touch banco.json
+ 1263  python issue3.py 
+ 1264  ls
+ 1265  rm -f banco.json 
+ 1266  python issue3.py 
+ 1267  touch banco.json
+ 1268  python issue3.py 
+ 1269  ls
+ 1270  rm -f banco.json 
+ 1271  touch banco.json
+ 1272  python issue3.py 
+ 1273  ls
+ 1274  rm -f banco.json 
+ 1275  touch banco.json
+ 1276  python issue3.py 
+ 1277  cat banco.json 
+ 1278  python issue3.py 
+ 1279  ls
+ 1280  cat banco.json 
+ 1281  python issue3.py 
+ 1282  ls
+ 1283  rm -f banco.json 
+ 1284  python issue3.py 
+ 1285  touch banco.json
+ 1286  python issue3.py 
+ 1287  ls -la
+ 1288  rm -f banco.json 
+ 1289  python issue3.py 
+ 1290  ls
+ 1291  python issue3.py 
+ 1292  touch banco.json
+ 1293  python issue3.py 
+ 1294  cat banco.json 
+ 1295  ls -la
+ 1296  cat banco.json 
+ 1297  python issue3.py 
+ 1298  cat banco.json 
+ 1299  python issue3.py 
+ 1300  ls
+ 1301  cat banco.json 
+ 1302  python issue3.py 
+ 1303  rm -f banco.json 
+ 1304  touch banco.json
+ 1305  python issue3.py 
+ 1306  cat banco.json 
+ 1307  python issue3.py 
+ 1308  rm -f banco.json 
+ 1309  touch banco.json
+ 1310  python issue3.py 
+ 1311  rm -f banco.json 
+ 1312  touch banco.json
+ 1313  python issue3.py 
+ 1314  cat banco.json 
+ 1315  cd ..
+ 1316  cd Aula
+ 1317  cd Aula04/
+ 1318  ls
+ 1319  python AdmSSH.py 
+ 1320  touch servidores.json
+ 1321  python AdmSSH.py 
+ 1322  cat servidores.json 
+ 1323  python AdmSSH.py 
+ 1324  cat servidores.json 
+ 1325  python AdmSSH.py 
+ 1326  cat servidores.json 
+ 1327  python AdmSSH.py 
+ 1328  cat servidores.json 
+ 1329  su - postgres
+ 1330  sudo su - postgres
+ 1331  psql -U dexter admssh -W
+ 1332  psql -U dexter -h 127.0.0.1 admssh -W
+ 1333  cd ..
+ 1334  cd Aula06/
+ 1335  ls
+ 1336  python AdmSSH.py 
+ 1337  psql -U dexter -h 127.0.0.1 admssh -W
+ 1338  python AdmSSH.py 
+ 1339  psql -U dexter -h 127.0.0.1 admssh -W
+ 1340  python AdmSSH.py 
+ 1341  psql -U dexter -h 127.0.0.1 admssh -W
+ 1342  python AdmSSH.py 
+ 1343  psql -h 127.0.0.1 -U dexter admssh -W
+ 1344  python AdmSSH.py 
+ 1345  psql -h 127.0.0.1 -U dexter admssh -W
+ 1346  cd ..
+ 1347  cd Aula07/
+ 1348  ls
+ 1349  python AdmSSH.py 
+ 1350  psql -h 127.0.0.1 -U dexter admssh -W
+ 1351  python AdmSSH.py 
+ 1352  ls
+ 1353  python AdmSSH.py 
+ 1354  psql -h 127.0.0.1 -U dexter admssh -W
+ 1355  python AdmSSH.py 
+ 1356  python Models/Model.py
+ 1357  python AdmSSH.py 
+ 1358  psql -h 127.0.0.1 -U dexter admssh -W
+ 1359  python AdmSSH.py 
+ 1360  psql -h 127.0.0.1 -U dexter admssh -W
+ 1361  python Models/Model.py
+ 1362  python AdmSSH.py 
+ 1363  psql -h 127.0.0.1 -U dexter admssh -W
+ 1364  python AdmSSH.py 
+ 1365  python Models/Model.py
+ 1366  python AdmSSH.py 
+ 1367  cd ..
+ 1368  cd Aula08/
+ 1369  ls
+ 1370  python AdmSSH.py 
+ 1371  python
+ 1372  cd ..
+ 1373  cd Aula01/
+ 1374  python AdmSSH.py 
+ 1375  ls
+ 1376  python issue1.py 
+ 1377  cd ..
+ 1378  cd Aula09/
+ 1379  ls
+ 1380  ls -la
+ 1381  python AdmSSH.py 
+ 1382  cd ..
+ 1383  cd Aula10/
+ 1384  ls -la
+ 1385  python AdmSSH.py 
+ 1386  kill %1
+ 1387  ls -la
+ 1388  python AdmSSH.py 
+ 1389  ls
+ 1390  cd ..
+ 1391  ls
+ 1392  cd Aula09/
+ 1393  ls
+ 1394  python AdmSSH.py 
+ 1395  psql -h 127.0.0.1 -U dexter  dexterops -W
+ 1396  psql -h 127.0.0.1 -U dexter admssh -W
+ 1397  python
+ 1398  cd /var/www/4803-Python/
+ 1399  ls
+ 1400  cd ProjetoDexter/
+ 1401  ls
+ 1402  cd ..
+ 1403  ls
+ 1404  cd HandsOn/
+ 1405  ls
+ 1406  cd Aula08/
+ 1407  ls
+ 1408  python AdmSSH.py 
+ 1409  ssh forlinux@192.168.0.2
+ 1410  ls
+ 1411  mysql -u root -p123456
+ 1412  mysql -u projetos projetos -p4linux
+ 1413  sudo nano /etc/php5/apache2/php.ini
+ 1414  ill %1sudo nano /etc/php5/apache2/php.ini
+ 1415  sudo kill %1
+ 1416  sudo vim /etc/php5/apache2/php.ini
+ 1417  sudo vim /etc/php5/cli/php.ini 
+ 1418  sudo apt-get -f install php5-mysql -y
+ 1419  sudo apt-get update && sudo apt-get -f install php5-mysql -y
+ 1420  sudo service apache2 restart
+ 1421  mysql -u projetos projetos -p4linux
+ 1422  ls
+ 1423  cd www/
+ 1424  ls
+ 1425  cd 4803-Python/
+ 1426  ls
+ 1427  cd HandsOn/
+ 1428  de ProjetoDexter/
+ 1429  ls
+ 1430  cd ProjetoDexter/
+ 1431  ls
+ 1432  python Models/Models.py 
+ 1433  ls
+ 1434  sqlite3 banco.db 
+ 1435  rm -f banco.db 
+ 1436  python Models/Models.py 
+ 1437  ls
+ 1438  sqlite3 banco.db 
+ 1439  ls
+ 1440  cd ..
+ 1441  ls
+ 1442  cd Aula01/
+ 1443  ip a
+ 1444  cd www/4803-Python/HandsOn/Aula01/
+ 1445  python teste.py 
+ 1446  ls
+ 1447  python teste.py 
+ 1448  pep8 teste.py 
+ 1449  python teste.py 
+ 1450  ls
+ 1451  python teste.py 
+ 1452  pep8 teste.py 
+ 1453  python teste.py 
+ 1454  pep8 teste.py 
+ 1455  python teste.py 
+ 1456  print
+ 1457  python
+ 1458  cd ..
+ 1459  cd Aula02/
+ 1460  python aula02.py 
+ 1461  cd ..
+ 1462  ls
+ 1463  cd Aula01/
+ 1464  ls
+ 1465  pythin issue1.py 
+ 1466  python issue1.py 
+ 1467  cd ..
+ 1468  cd Aula02/
+ 1469  ls
+ 1470  python issue2.py 
+ 1471  python
+ 1472  sudo pip install pep8
+ 1473  pep8 www/4803-Python/HandsOn/Aula10/*
+ 1474  sudo pip install pyflakes
+ 1475  pep8 www/4803-Python/HandsOn/Aula10/AdmSSH.py 
+ 1476  vim www/4803-Python/HandsOn/Aula10/AdmSSH.py 
+ 1477  sudo pip install flake8
+ 1478  sudo pip install maccabe
+ 1479  sudo pip search maccabe
+ 1480  sudo pip install mccabe
+ 1481  sudo pip install pylint
+ 1482  sudo pip install vulture
+ 1483  vulture www/4803-Python/HandsOn/Aula10/AdmSSH.py 
+ 1484  vulture www/4803-Python/HandsOn/Aula10/
+ 1485  sudo pip install prospector
+ 1486  prospector www/4803-Python/HandsOn/Aula10/
+ 1487  python
+ 1488  mysql -u projetos projetos -p4linux
+ 1489  cd www/4803-Python/HandsOn/Aula03/
+ 1490  ls
+ 1491  cat issue3.py 
+ 1492  ls
+ 1493  python funcoes.py 
+ 1494  ls
+ 1495  cp funcoes.py issue3.py 
+ 1496  python issue3.py 
+ 1497  ls
+ 1498  rm -f issue3.py 
+ 1499  ls
+ 1500  cp funcoes.py issue3.py
+ 1501  python issue3.py 
+ 1502  cat /etc/passwd
+ 1503  python issue3.py 
+ 1504  cd ..
+ 1505  cd Aula04/
+ 1506  sudo apt-get install python-setuptools -y
+ 1507  easy_install -U pip
+ 1508  sudo easy_install -U pip
+ 1509  sudo easy_install paramiko
+ 1510  sudo pip install flask
+ 1511  sudo pip install flask --upgrade
+ 1512  sudo pip search paramiko
+ 1513  sudo pip search jenkins
+ 1514  sudo pip search git
+ 1515  sudo pip search mongodb
+ 1516  sudo pip install pymongo --upgrade
+ 1517  sudo pip list
+ 1518  sudo pip remove django
+ 1519  sudo pip uninstall django
+ 1520  sudo pip install paramiko
+ 1521  sudo pip install paramiko --upgrade
+ 1522  python aula4.py 
+ 1523  cat ~/.ssh/known_hosts
+ 1524  python aula4.py 
+ 1525  ping 192.168.0.2
+ 1526  python aula4.py 
+ 1527  ls
+ 1528  echo $?
+ 1529  lxs
+ 1530  echo $?
+ 1531  python aula4.py 
+ 1532  ls
+ 1533  python principal.py 
+ 1534  ls
+ 1535  mv ssh.py Pacote/
+ 1536  python principal.py 
+ 1537  sudo su - postgres
+ 1538  killall gedit
+ 1539  sudo apt-get install mysql-server mysql-client -y
+ 1540  sudo apt-get update sudo apt-get -f install mysql-server mysql-client -y
+ 1541  sudo apt-get update && sudo apt-get -f install mysql-server mysql-client -y
+ 1542  mysql -u root -p
+ 1543  mysql -u root -p123456
+ 1544  mysql -u python -p4linux
+ 1545  mysql -u devops -p4linux
+ 1546  mysql -u devops python -p4linux
+ 1547  mysql -u root -p123456
+ 1548  getent passwd postgres
+ 1549  su - postgres
+ 1550  sudo su - postgres
+ 1551  psql -U devops python -h 127.0.0.1 -W
+ 1552  mysql -u root -p12345
+ 1553  mysql -u root -p123456
+ 1554  psql -U devops python -h 127.0.0.1 -W
+ 1555  mysql -u devops python -p4linux
+ 1556  cd www/4803-Python/
+ 1557  ls
+ 1558  cd HandsOn/
+ 1559  cd Aula10/
+ 1560  ls
+ 1561  python Fisico.py 
+ 1562  ls
+ 1563  python Cloud.py 
+ 1564  python Fisico.py 
+ 1565  python Cloud.py 
+ 1566  python Fisico.py 
+ 1567  python Cloud.py 
+ 1568  python Fisico.py 
+ 1569  python Cloud.py 
+ 1570  python Fisico.py 
+ 1571  python Cloud.py 
+ 1572  python Fisico.py 
+ 1573  python Cloud.py 
+ 1574  python Fisico.py 
+ 1575  python Cloud.py 
+ 1576  python Fisico.py 
+ 1577  python Cloud.py 
+ 1578  cd ..
+ 1579  cd Aula06/
+ 1580  ls
+ 1581  rm -f banco.json servidores.json 
+ 1582  ls
+ 1583  python AdmSSH.py 
+ 1584  ls
+ 1585  cd www/4803-Python/
+ 1586  ls
+ 1587  cd HandsOn/
+ 1588  ls
+ 1589  cd Aula07/ADMSSH/
+ 1590  ls
+ 1591  ls- la
+ 1592  ls
+ 1593  python Models/Model.py 
+ 1594  ls
+ 1595  python AdmSSH.py 
+ 1596  ls
+ 1597  find . -iname *.pyc
+ 1598  find . -type f -iname *.pyc
+ 1599  find . -iname *.pyc
+ 1600  find . -iname .pyc
+ 1601  find . -iname "*.pyc"
+ 1602  find . -iname "*.pyc" -delete
+ 1603  find . -iname "*.pyc"
+ 1604  python AdmSSH.py 
+ 1605  sudo pip install tokenize
+ 1606  sudo pip install tokenize --upgrade
+ 1607  sudo pip
+ 1608  python AdmSSH.py 
+ 1609  sudo pip install --upgrade tokenize
+ 1610  sudo pip install --upgrade sqlalchemy
+ 1611  python AdmSSH.py 
+ 1612  python Usuarios/Usuarios.py
+ 1613  python AdmSSH.py 
+ 1614  ls
+ 1615  vim ls -la
+ 1616  ls -la
+ 1617  find . -iname *.pyc
+ 1618  find . -iname *.pyc -delete
+ 1619  ls -la
+ 1620  python AdmSSH.py 
+ 1621  sudo apt-get update &&  sudo apt-get upgrade -y
+ 1622  python AdmSSH.py 
+ 1623  sudo init 6
+ 1624  cd www/4803-Python/
+ 1625  ls
+ 1626  cd HandsOn/
+ 1627  ls
+ 1628  cd Aula07/
+ 1629  ls
+ 1630  cd Old/
+ 1631  ls
+ 1632  python AdmSSH.py 
+ 1633  vim Usuarios/usuarios.py
+ 1634  vim Models/Model.py
+ 1635  psql -U devops -h 127.0.0.1 -W
+ 1636  psql -U devops -h 127.0.0.1 python -W
+ 1637  psql -U devops -h 127.0.0.1 admssh -W
+ 1638  psql -U admssh -h 127.0.0.1 admssh -W
+ 1639  psql -U dexter -h 127.0.0.1 admssh -W
+ 1640  mongo
+ 1641  psql  -U dexter -h 127.0.0.1 admssh -W
+ 1642  psql -U dexter -h 127.0.0.1 admssh -W
+ 1643  ssh 192.168.0.2
+ 1644  ip a
+ 1645  cd wwwq
+ 1646  cd www/4803-Python/
+ 1647  ls
+ 1648  cd HandsOn/Aula07/
+ 1649  ls
+ 1650  cd ADMSSH/
+ 1651  ls
+ 1652  python AdmSSH.py 
+ 1653  cd ..
+ 1654  ls
+ 1655  mv ADMSSH/ Projeto
+ 1656  ls
+ 1657  cd Projeto/
+ 1658  python AdmSSH.py 
+ 1659  ls
+ 1660  cd ..
+ 1661  mv Projeto ADMSSH
+ 1662  ls
+ 1663  cd ADMSSH/
+ 1664  ls
+ 1665  cd Models/
+ 1666  ls
+ 1667  rm -f *.pyc
+ 1668  ls
+ 1669  rm -f __init__.py 
+ 1670  cd ..
+ 1671  ls
+ 1672  python AdmSSH.py 
+ 1673  touch Models/__init__.py
+ 1674  python AdmSSH.py 
+ 1675  cd ..
+ 1676  ls
+ 1677  cd Old/
+ 1678  ls
+ 1679  python AdmSSH.py 
+ 1680  cd ..
+ 1681  cd ADMSSH/
+ 1682  ls
+ 1683  python AdmSSH.py 
+ 1684  cd
+ 1685  cd ADMSSH/
+ 1686  ls
+ 1687  python AdmSSH.py 
+ 1688  ls
+ 1689  rm -f token.py principal.py 
+ 1690  python AdmSSH.py 
+ 1691  ls
+ 1692  rm -f token.pyc 
+ 1693  ls
+ 1694  python AdmSSH.py 
+ 1695  cd
+ 1696  cd www/4803-Python/HandsOn/Aula07/ADMSSH/
+ 1697  python AdmSSH.py 
+ 1698  ls
+ 1699  rm -f token.pyc
+ 1700  ls
+ 1701  python AdmSSH.py 
+ 1702  cd ..
+ 1703  cd Aula08/ADMSSH/
+ 1704  ls
+ 1705  python AdmSSH.py 
+ 1706  cd ..
+ 1707  cd Aula09/
+ 1708  ls
+ 1709  cd ADMSSH/
+ 1710  ls
+ 1711  python AdmSSH.py 
+ 1712  ls
+ 1713  python AdmSSH.py 
+ 1714  cd ..
+ 1715  cd Aula10/
+ 1716  ls
+ 1717  cd ADMSSH/
+ 1718  ls
+ 1719  python AdmSSH.py l
+ 1720  python AdmSSH.py 
+ 1721  cd ..
+ 1722  cd Aula12
+ 1723  ls
+ 1724  ssh 192.168.0.2
+ 1725  cd www/4803-Python/HandsOn/Aula12/
+ 1726  ls
+ 1727  python Models/Models.py 
+ 1728  python Modulos/MongoOps.py 
+ 1729  ls
+ 1730  python DexterOps.py 
+ 1731  python Models/Models.py
+ 1732  python Modulos/MongoOps.py
+ 1733  python DexterOps.py 
+ 1734  ssh rot@192.168.0.2
+ 1735  ssh root@192.168.0.2
+ 1736  ssh 192.168.0.2
+ 1737  ssh root@192.168.0.2
+ 1738  ssh 192.168.0.2
+ 1739  mongo
+ 1740  su - postgres
+ 1741  sudo su - postgres
+ 1742  history
+ 1743  sudo init 0
+ 1744  ls
+ 1745  cd /var
+ 1746  cd www
+ 1747  ll
+ 1748  cd 4500-PHP/
+ 1749  ll
+ 1750  cd aula0
+ 1751  ll
+ 1752  rm example_0
+ 1753  ll
+ 1754  clear
+ 1755  ll
+ 1756  more example_0.php 
+ 1757  ls
+ 1758  php
+ 1759  clear
+ 1760  lll
+ 1761  ll
+ 1762  ls
+ 1763  ll
+ 1764  php example_0.php 
+ 1765  clear
+ 1766  php example_0.php 
+ 1767  clear
+ 1768  ll
+ 1769  pwd
+ 1770  php example_0.php 
+ 1771  ll
+ 1772  php example_0-1.php
+ 1773  php example_1.php
+ 1774  php example_2.php
+ 1775  clear
+ 1776  php example_2.php
+ 1777  php example_3.php
+ 1778  php example_2.php
+ 1779  php example_3.php
+ 1780  git
+ 1781  php example_3.php
+ 1782  php example_4.php
+ 1783  php example_5.php
+ 1784  php example_6.php
+ 1785  php example_7.php
+ 1786  php example_8.php
+ 1787  php example_9.php
+ 1788  cd ..
+ 1789  ll
+ 1790  cd aula1
+ 1791  ll
+ 1792  php aula1.php
+ 1793  php aula0.php
+ 1794  ll
+ 1795  mv aula0.php exemplo0.php
+ 1796  mv aula1.php exemplo1.php
+ 1797  php aula1.php
+ 1798  php exemplo1.php
+ 1799  php exemplo2.php
+ 1800  php exemplo3.php
+ 1801  php exemplo4.php
+ 1802  php exemplo5.php
+ 1803  php exemplo6.php
+ 1804  clear
+ 1805  php exemplo6.php
+ 1806  clear
+ 1807  php exemplo6.php
+ 1808  cd ..
+ 1809  ll
+ 1810  cd aula0
+ 1811  grep -ir par *
+ 1812  cd ..
+ 1813  cd aula1
+ 1814  ll
+ 1815  php exemplo6.php
+ 1816  ckear
+ 1817  php exemplo6.php > x.txt
+ 1818  vim x.txt
+ 1819  cd ..
+ 1820  kk
+ 1821  ll
+ 1822  rm -rf asww
+ 1823  ll
+ 1824  git init
+ 1825  git remote add repo-github https://github.com/marcoslmori/curso4linux.git
+ 1826  git add --all
+ 1827  git status
+ 1828  git commit -m "Initial commit" 
+ 1829  git push repo-github master
+ 1830  git config user.email
+ 1831  git config --global user.name "gigio0107@gmail.com"
+ 1832  git config --global user.mail "gigio0107@gmail.com"
+ 1833  git config --global user.name "marcoslmori"
+ 1834  git commit --amend --reset-author
+ 1835  git log
+ 1836  git config --global user.email "gigio0107@gmail.com"
+ 1837  git commit --amend --reset-author
+ 1838  git log
+ 1839  git push repo-github master  -f
+ 1840  pwd
+ 1841  ll
+ 1842  cd aula1
+ 1843  ll
+ 1844  git add requisitos\ da\ calculadora.txt 
+ 1845  git commit -m "exercicios para semana que vem"
+ 1846  git push
+ 1847  git status
+ 1848  ll
+ 1849  git add requisitos\ da\ calculadora.txt q
+ 1850  git add requisitos\ da\ calculadora.txt
+ 1851  git status
+ 1852  git show
+ 1853  git push repo-github master
+ 1854  exit
+ 1855  pwd
+ 1856  cd /var
+ 1857  cd www
+ 1858  ll
+ 1859  cd 4500-PHP/
+ 1860  ll
+ 1861  cd aula1
+ 1862  ll
+ 1863  sudo
+ 1864  git pull
+ 1865  git
+ 1866  sudo git pull
+ 1867  cd ..
+ 1868  ll *.git
+ 1869  ll
+ 1870  git pull
+ 1871  vi .git
+ 1872  git
+ 1873  pwd
+ 1874  git pull
+ 1875  git remote show
+ 1876  git pull repo-github 
+ 1877  ll
+ 1878  cd aula1
+ 1879  ll
+ 1880  git pull
+ 1881  git remote show
+ 1882  git pull repo-github 
+ 1883  cd ..
+ 1884  git status
+ 1885  ll
+ 1886  git pull
+ 1887  git pull repo-github
+ 1888  git remote show
+ 1889  git pull repo-github
+ 1890  ll
+ 1891  git pull repo-github master
+ 1892  ll
+ 1893  cd aula1
+ 1894  ll
+ 1895  rm primofeitonaaula 
+ 1896  ll
+ 1897  more primoprof.php
+ 1898  rm  primoprof.php
+ 1899  ll
+ 1900  more exemplo-funcao 
+ 1901  ll
+ 1902  pho primoscomfuncao.php
+ 1903  php primoscomfuncao.php
+ 1904  chmod -r 777 *.*
+ 1905  sudo chmod -r 777 *.*
+ 1906  ll
+ 1907  php primoscomfuncao.php
+ 1908  more primoscomfuncao.php
+ 1909  more primocomfuncao.php
+ 1910  sudo chmod 777  primocomfuncao.php
+ 1911  ll
+ 1912  php primoscomfuncao.php
+ 1913  php primocomfuncao.php
+ 1914  clear
+ 1915  time php primocomfuncao.php
+ 1916  php primocomfuncao.php
+ 1917  time php primocomfuncao.php
+ 1918  vim primocomfuncao-time.txt 
+ 1919  cd /var/www
+ 1920  ll
+ 1921  cd 4500-PHP/
+ 1922  ll
+ 1923  cd aula1/
+ 1924  ll
+ 1925  chmod 777 primocomfuncao1.php
+ 1926  ll
+ 1927  time php primocomfuncao1.php
+ 1928  ll
+ 1929  chmod 777 primocomfuncao2.php
+ 1930  ll
+ 1931  time php primocomfuncao2.php
+ 1932  cd ,,
+ 1933  cd ..
+ 1934  kk
+ 1935  ll
+ 1936  mkdir aula2
+ 1937  kk
+ 1938  ll
+ 1939  chmod 777 aula2
+ 1940  cd aula2
+ 1941  l
+ 1942  ll
+ 1943  l
+ 1944  kk
+ 1945  ll
+ 1946  mkdir array
+ 1947  cd array
+ 1948  ll
+ 1949  cd ,,
+ 1950  ll
+ 1951  cd ,,
+ 1952  cd ..
+ 1953  ll
+ 1954  cd ..
+ 1955  ll
+ 1956  git add all
+ 1957  sudo git add all
+ 1958  ll
+ 1959  mkdir aula3
+ 1960  ll
+ 1961  pwd
+ 1962  ll
+ 1963  cd aula2
+ 1964  grep -ir function
+ 1965  grep -ir function *
+ 1966  clear
+ 1967  ll
+ 1968  cd ..
+ 1969  ll
+ 1970  cd ..
+ 1971  ll
+ 1972  chmod -R 777 4500-PHP/
+ 1973  cd 4500-PHP/
+ 1974  ll
+ 1975  git status
+ 1976  git add --all
+ 1977  git commit -m "2 aula arrays e funcoes " 
+ 1978  git push
+ 1979  git push repo-github master 
+ 1980  exit
+ 1981  pwd
+ 1982  cd /var
+ 1983  cd www
+ 1984  ll
+ 1985  cd 4500-PHP/
+ 1986  ll
+ 1987  sudo git pull
+ 1988  sudo git show
+ 1989  cd /var
+ 1990  cd www
+ 1991  ll
+ 1992  cd 4500-PHP/
+ 1993  ll
+ 1994  git show repository
+ 1995  git show repo
+ 1996  git show -v
+ 1997  cd /var
+ 1998  cd www
+ 1999  ll
+ 2000  cd 4500-PHP/
+ 2001  ll
+ 2002  git show -repo
+ 2003  git remote show origin
+ 2004  ll *.git
+ 2005  ll
+ 2006  vi .git
+ 2007  ll
+ 2008  history
+ 2009  git remote show
+ 2010  git pull repo-github 
+ 2011  ll
+ 2012  history > hist.txt
