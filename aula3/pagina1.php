@@ -4,7 +4,7 @@
 <head><title>pagina1</title></head>
 <body>
 	<?php
-
+// para desenvolver funcao de teste
 		function soma_test ($a, $b, $resultado) {
 			echo "a=$a, b=$b, resultado=$resultado<br />";
 			return $resultado == soma($a, $b);
