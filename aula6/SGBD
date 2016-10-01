@@ -1,0 +1,111 @@
+SGBD
+- sistema gerenciador de banco de dados 
+--mysql
+- maviadb
+- postgresql
+- firebird
+- sqlite
+- oracle
+
+
+nosql
+- mongodb - forlinux estah investindo nesse banco 
+- couchdb
+- cassandra (bd) - opensource
+-- facebook, google, amazon
+- neo45
+
+
+- existem plugins que o php pode trabalhar com nosql
+- pode usar o banco sql ou nsql ao mesmo tempo 
+- a tendencia 'e utilizar o banco de acordo com a necessidade'
+
+
+
+- outra tend^encia eh o microservice
+-- varios servicos.
+
+
+sgbd
+- tabelas ==> colunas relacionadas
+mysql -u root -p
+
+show databases;
+
+para mostrar os usuarios do sistema
+SELECT * FROM mysql.user;
+
+namespace = uma palavra que vem antes, mais usado no orientado a objeto
+
+
+SELECT * FROM mysql.user;
+
+SELECT User, Password FROM user WHERE User="root"
+mostra a coluna user que tenha o tema root
+
+SELECT Host, User, Password FROM user WHERE User="root" AND Host='localhost';
+
+criptogra
+
+////////////////////////
+
+criar um projeto 
+
+mysql -u root -p
+CREATE DATABASE Aula04;
+use Aula04;
+
+sempre eh bom criar um usuario para cada tabela
+'%' GLOBAL - QUALQUER DOMINIO PODE ACESSAR
+GRANT ALL PRIVILEGES ON Aula04.* TO Aula04@'%' IDENTIFIED BY '4LINUX' WITH GRANT OPTION;
+senha 4LINUX eh a senha
+
+
+para ver os usuarios
+
+SELECT User, Password FROM mysql.user;
+
+ para acessar direto o banco 
+
+ mysql -p -u Aula04 Aula04
+
+
+Site oficial do mysql
+dev.mysql.com/doc
+
+criando tabelas
+
+mysql> CREATE TABLE usuario (
+    -> nome VARCHAR(100),
+    -> email VARCHAR(100) NOT NULL UNIQUE,
+    -> senha VARCHAR(200) NOT NULL
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+NOT NULL UNIQUE - obrigatorio
+
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_Aula04 |
++------------------+
+| usuario          |
++------------------+
+1 row in set (0.00 sec
+
+
+ctlr + d = exit
+
+
+executar um arquivo sql
+
+mysql -p -u Aula04 Aula04 < aula04.sql
+
+para ver de novo tem que entrar no mysql 
+mysql -p -u Aula04 Aula04
+
+ingressando registro no banco
+
+ysql> INSERT INTO usuarios (nome,email,senha) VALUES ('Administrador', 'admin@dexter.com.br', '123456');
+Query OK, 1 row affected (0.00 sec)
+
+
