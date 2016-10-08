@@ -1,15 +1,12 @@
 <?php
 require "settings.php";
-require_once "db_mysql.php";
 
 // usuario hard coded
-// $user = array(
-// 		"email" => 'admin@gmail.com',
-//		"senha" => '123456',
-//		"nome"  => 'administrador',
-//	);
-
-
+$user = array(
+		"email" => 'admin@gmail.com',
+		"senha" => '123456',
+		"nome"  => 'administrador',
+	);
 
 
 // campos obrigatoris de login
@@ -33,33 +30,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 		}
 	}
 	
-	// atribuicao das variveis do log
+	// atribuicao das variveis do logi
 	$login = $_POST['email'];
 	$senha = $_POST['senha'];
-
-	$sec_senha = sha1('4linux+' . $senha);
 	
 
-// Criacao do query (insert)
-$sql = "SELECT * FROM usuarios  WHERE  email='%s' AND senha='%s'";
-		
-$query = sprintf($sql, $login, $sec_senha);
-
-$mysqli_query = mysqli_query($conn, $query);
-
-$row = mysqli_fetch_assoc($mysqli_query);
-
-
 	// comparar a senha do usuario
-	if ($row){
+	
+	if ($login == $user['email'] && $senha == $user['senha']){
 		// @session_start
 		if(! isset($_SESSION)) session_start();
 
 		// definir os dados persistindo entre as paginas
-		$_SESSION['email'] = $row['email'];
-		// $_SESSION['senha'] = $senha;
-		$_SESSION['nome'] = $row['nome'];
-		$_SESSION['id'] = $row['id'];
+		$_SESSION['email'] = $login;
+		$_SESSION['senha'] = $senha;
+		$_SESSION['nome'] = $user['nome'];
 
 		header('location: '. $URL_PATH . 'index.php');
 	}

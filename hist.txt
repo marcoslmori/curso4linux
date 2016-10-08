@@ -814,7 +814,7 @@
  1826  git add --all
  1827  git status
  1828  git commit -m "Initial commit" 
- 1829  git push repo-github master
+ 1829  :
  1830  git config user.email
  1831  git config --global user.name "gigio0107@gmail.com"
  1832  git config --global user.mail "gigio0107@gmail.com"

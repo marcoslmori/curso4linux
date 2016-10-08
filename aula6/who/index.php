@@ -77,7 +77,7 @@
 		<td><?= $row['nome'] ?></td>
 		<td><?= $row['email'] ?></td>
 		<td>
-			<a href="<?= $URL_PATH ?>core/editar.php?id=<?= $row['id'] ?>" class="btn btn-primary btn-sm">editar</a>
+			<a href="<?= $URL_PATH ?>editar.php?id=<?= $row['id'] ?>" class="btn btn-primary btn-sm">editar</a>
 			<a href="<?= $URL_PATH ?>core/deletar.php?id=<?= $row['id'] ?>" class= "btn btn-danger btn-sm">excluir</a>
 
 
